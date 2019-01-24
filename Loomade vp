@@ -1,0 +1,83 @@
+# Loomade-varjupaik
+Funktsionaalsuse lisamine jms ained
+<!doctype html>
+<html>
+    <head>
+        <title>Kadri loomade varjupaik</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="varjupaik.css" type="text/css" />
+
+<!--        <script src="js/jquery.js"></script>
+        <script type="text/javascript">
+            var show_width = 0;
+            if(show_width == 1){
+            $(document).ready(function(){
+                $(window).resize(function(){
+                    var screen_width = $(window).width();
+                    document.getElementById('screen_width').innerHTML = 'Window Width: ' + screen_width.toString();
+                });
+            });
+            }
+         </script>
+-->    
+    </head>
+<body>
+  
+<div id="wrap">
+<div id="screen_width"></div>
+    <div class="container1">
+<nav class="main-nav">
+        <ul>
+            <li><a href="Varjupaik_avaleht.html">Avaleht</a></li>
+            <li><a href="loomad_vp.html">Loomad varjupaigas</a></li>
+            
+<!-- Siia peavad tulema valikud: Kassid, koerad ja muud loomad
+                <select>
+                    <option value="Kassid">Kassid</option>
+                    <option value="Kassid">Koerad</option>
+                    <option value="Kassid">Muud</option>
+                </select> -->
+            
+            <li><a href="kaotatud.html">Kaotatud loomad</a></li>
+            <li><a href="toetus.html">Toetus</a></li>
+            <li><a href="toetus.html">Varjupaigast</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>    
+        </ul>
+</nav>       
+<div class = "header">    
+<!--Ideaalis võiks siin olla logo?
+    <div class="logo">
+    <img src="LOGO.png" alt="Loomade varjupaiga logo" />
+    </div><!-- logo -->
+<div class="background">
+    <image class="header-image" src=anusha-barwa-428445-unsplash.jpg width="100%"></image>
+</div><!-- /.background -->
+</div>    
+    
+<div id="showcase">
+    <div class="container">
+        <div class="showcase-right">
+            <p> SIIA MINGI TUTVUSTAV TEKST - VARJUPAIGAST Pellentesque tincidunt, dui ut faucibus vestibulum, urna quam suscipit libero, vel lobortis lectus erat tincidunt mi. Sed volutpat vehicula lectus. Mauris nulla ligula, auctor vel nulla non, bibendum molestie lacus.</p>
+        </div><!-- .showcase-right -->                   
+        <div class="showcase-left">
+            
+            <h1>Loomade varjupaik</h1>
+            <h3>Kadri Loomade varjupaik</h3>
+            
+        </div>
+    </div>
+</div>            
+
+<footer>
+    
+<!--- Kontaktandmed, aadress, kontonr, muu vajalik informatsioon -->
+    
+    <p>Copyright &copy; 2019 Kadri Kaarlõp</p>
+</footer>
+    
+</div>    
+</div><!-- #wrap-->    
+</body>
+</html> 
+    
