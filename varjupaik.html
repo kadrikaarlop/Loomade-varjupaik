@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Kadri loomade varjupaik</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="varjupaik.css" type="text/css" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    
+<body>
+    
+<div id="screen_width"></div>
+<div class="container1">
+        <div class = "header">
+    </div>
+<nav class="main-nav">
+    <ul>
+            <li><a href="varjupaik.html">Avaleht</a></li>
+            <li><a href="Loomad_vp.html">Loomad varjupaigas</a></li>
+            <li><a href="kaotatud.html">Kaotatud loomad</a></li>
+            <li><a href="toetus.html">Toetus</a></li>
+            <li><a href="varjupaigast.html">Varjupaigast</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+</nav>       
+</div>
+
+<!-- Slideshow - hero banneri konteiner -->        
+<div class="slideshow-container">
+    <img class="mySlides" src="anusha-barwa-428445-unsplash.jpg" style="width:100%">  
+    <img class="mySlides" src="erik-jan-leusink-561776-unsplash.jpg" style="width:100%">
+    <img class="mySlides" src="robert-larsson-64550-unsplash.jpg" style="width:100%">
+    
+</div><!-- Slideshow container -->
+    
+<!-- Hero banneri skript vahelduvate piltidega -->
+    
+<script>
+    
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+</script>
+    
+<div class="container2">
+            <br>
+            <p>Tegu on Tartu linnas tegutseva varjupaigaga, mis on mõeldud kassidele, koertele ja teistele loomadele.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus dictum facilisis. Donec maximus eleifend lacus, ac sagittis ante. Fusce non elementum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida sem sed libero elementum auctor. Pellentesque iaculis pellentesque libero ut tempor. Ut a aliquet arcu. Donec convallis leo id arcu semper luctus. Aenean posuere porttitor sapien, id tristique quam bibendum sed. Cras tempus quam nec maximus auctor. Donec lacinia cursus sodales. Aenean ac magna a sapien dictum vestibulum. Donec euismod vel quam vitae iaculis. Duis vitae lacus posuere, porta nisi nec, pulvinar ligula.</p>
+
+            <h3>Aitame loomi, aita sinagi</h3>
+            
+</div>           
+
+<div class="kaart">  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.60557503266!2d26.71192471603295!3d58.34945538132673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3747db90ed05%3A0x387b666bb555e743!2sKopli+1%2C+50115+Tartu!5e0!3m2!1set!2see!4v1551015931436" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+</div>
+    
+<!--- Kontaktandmed, aadress, kontonr, muu vajalik informatsioon -->
+    
+<footer>
+Aadress: Kopli 1, Tartu
+<br>
++372 56 888 999 1
+<br>    
+varjupaik@varjupaik.com
+<br>    
+Copyright &copy; 2019 Kadri Kaarlõp
+</footer>
+          
+</body>
+</html> 
+    
